@@ -1,0 +1,82 @@
+/* Header */
+.header {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center horizontally */
+    color: #1a202c;
+    background-color: #51628586;
+    gap: 20%;
+    margin-bottom: 10%;
+}
+
+.header button {
+    font-weight: bold;
+    color: #1a202c;
+    margin-bottom: 25%;
+    margin-top: 25%;
+}
+.header button:hover {
+    color: #c4b194;
+}
+
+/* All body */
+.body {
+    background-color: #7395AE;
+}
+
+.main_body {
+    color: #1a202c;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.immagine {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4b194;
+    color: #1a202c;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-center > div {
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+  
+.image {
+float: left; /* Float the image to the left */
+margin-right: 20px; /* Add some margin for spacing */
+max-width: 200px; /* Limit image width if necessary */
+height: auto; /* Maintain aspect ratio */
+}
+
+/*
+5D5C61
+379683
+557A95
+B1AA296
+*/
